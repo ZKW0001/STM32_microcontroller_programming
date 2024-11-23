@@ -33,6 +33,7 @@ https://github.com/user-attachments/assets/3b38722d-067f-4970-94db-5afce1e2d357
 
 After the "Stopwatch" page, moving the joystick downward transitions the microcontroller to the next page, the "Countdown Timer" page. The user can set the countdown duration using the potentiometers. The left potentiometer sets the minutes (0 to 59), while the right potentiometer sets the seconds (0 to 59). Pressing the fire button on the joystick starts the countdown, which is displayed in real time on the LCD in the format minutes:seconds. While the countdown is running, the RGB LED flashes green to indicate active countdown operation. When the countdown reaches zero, the RGB LED turns yellow, and the speaker plays a sequence of tones to signal the end of the countdown. Pressing the fire button again stops the countdown.
 <br>
+<br>
 - **Multitasks**  
 
 https://github.com/user-attachments/assets/f986f498-c00b-4083-b754-91df781f054c  
