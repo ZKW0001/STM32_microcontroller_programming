@@ -34,8 +34,10 @@ https://github.com/user-attachments/assets/3b38722d-067f-4970-94db-5afce1e2d357
 After the "Stopwatch" page, moving the joystick downward transitions the microcontroller to the next page, the "Countdown Timer" page. The user can set the countdown duration using the potentiometers. The left potentiometer sets the minutes (0 to 59), while the right potentiometer sets the seconds (0 to 59). Pressing the fire button on the joystick starts the countdown, which is displayed in real time on the LCD in the format minutes:seconds. While the countdown is running, the RGB LED flashes green to indicate active countdown operation. When the countdown reaches zero, the RGB LED turns yellow, and the speaker plays a sequence of tones to signal the end of the countdown. Pressing the fire button again stops the countdown.
 <br>
 <br>
-- **Multitasks**  
+- **Multitasking**  
 
-https://github.com/user-attachments/assets/f986f498-c00b-4083-b754-91df781f054c  
 
-While the "Countdown Timer" is running, the user can still press the joystick upward or downward to switch between pages. The RGB LED continues flashing green, indicating that the countdown is operating normally. If the user navigates to the "Stopwatch" page and presses the fire button, both the countdown and stopwatch will run simultaneously. When the countdown reaches zero, a pop-up window will appear on the LCD regardless of the current page, accompanied by the speaker playing a sequence of tones to signal the end of the countdown. Pressing the joystick upward or the fire button will return the user to the "Countdown Timer" page. The stopwatch will remain running throughout, and the user can navigate to the "Stopwatch" page and press the fire button to freeze the stopwatch timer.
+https://github.com/user-attachments/assets/6280f624-fc6b-46e3-a2e5-715c86d26782
+
+
+While the "Countdown Timer" is running, the user can still press the joystick upward or downward to switch between pages. The RGB LED continues flashing green, indicating that the countdown is operating normally. If the user navigates to the "Stopwatch" page and presses the fire button, both the countdown and stopwatch will run simultaneously. When the countdown reaches zero, a pop-up window will appear on the LCD regardless of the current page, accompanied by the speaker playing a sequence of tones to signal the end of the countdown. Pressing the joystick upward or fire will return the user to the "Countdown Timer" page. The stopwatch will remain running throughout, and the user can navigate to the "Stopwatch" page and press the fire button to freeze the stopwatch timer.
